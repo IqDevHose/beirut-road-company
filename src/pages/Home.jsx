@@ -35,22 +35,20 @@ const Home = () => {
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
               <Typography variant="h1" className="text-5xl font-bold mb-6">
-                Welcome to Nissr Dijlah
+                شركة طريق بيروت للتجارة
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-gray-700 mb-6"
               >
-                Experience the epitome of elegance at Nissr Dijlah, where each
-                piece is carefully curated to reflect the finest in men's
-                fashion, blending style, quality, and timeless appeal.
+                شركة متخصصة في بيع الملابس ومنتجات التجميل عبر الإنترنت، تقدم أحدث الصيحات بأسعار تنافسية. يقع مقر الشركة في بغداد وتلتزم بتوفير منتجات عالية الجودة وخدمة عملاء مميزة.
               </Typography>
               <Link to={"/about"}>
                 <Button
                   color="black"
-                  className="rounded-full hover:bg-gray-800 px-8 py-3"
+                  className="rounded-full hover:bg-gray-800 px-6 py-2 text-xl"
                 >
-                  ABOUT US
+                  من نحن
                 </Button>
               </Link>
             </div>
@@ -60,7 +58,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 flex justify-center px-4">
             <Card className="w-full max-w-lg overflow-hidden rounded-[30px] shadow-xl">
               <img
-                src="/assets/IMG-20240929-WA0093.jpg"
+                src="/assets/homePageImage.jpg"
                 alt="Fashion Model"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
@@ -73,13 +71,9 @@ const Home = () => {
       <section className="bg-gray-100 py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
-            <h2 className="text-4xl font-bold mb-6">Who We Are</h2>
+            <h2 className="text-4xl font-bold mb-6">من نحن</h2>
             <p className="text-gray-600 mb-8">
-              At Nissr Dijlah, we believe that fashion is more than just
-              clothing; it's a form of self-expression. Our team of dedicated
-              fashion experts is committed to selecting the finest pieces from
-              renowned designers, ensuring that our customers have access to the
-              latest trends and timeless classics.
+              نحن شركة متخصصة في تجارة الملابس ومواد التجميل، مقرنا في بغداد. نقدم مجموعة واسعة من أحدث صيحات الموضة ومنتجات العناية الشخصية، ملتزمون بتوفير منتجات عالية الجودة بأسعار تنافسية تلبي احتياجات جميع عملائنا. نسعى دائمًا إلى تقديم تجربة تسوق مميزة وخدمة عملاء استثنائية لضمان رضاكم وثقتكم.
             </p>
             {/* <Button className="bg-lime-300 text-gray-800 rounded-full w-40 py-3 hover:bg-lime-400 transition-colors">
               Shop now
@@ -102,7 +96,7 @@ const Home = () => {
             variant="h2"
             className="text-3xl font-bold text-center mb-8" // Reduced heading size and margin
           >
-            Our Gallery
+            منتجاتنا
           </Typography>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* Left Column: Two stacked images */}
@@ -156,7 +150,7 @@ const Home = () => {
                 color="black"
                 className="rounded-full hover:bg-gray-800 px-6 py-2 text-base font-semibold" // Reduced padding
               >
-                See More
+                شاهد المزيد
               </Button>
             </Link>
           </div>
@@ -176,20 +170,20 @@ const Home = () => {
             variant="h2"
             className="text-4xl font-bold text-white mb-4"
           >
-            Contact Us
+            تواصل معنا
           </Typography>
           <Typography
             variant="paragraph"
             className="text-xl text-gray-300 mb-8"
           >
-            Feel free to send us a message
+            لا تتردد في إرسال رسالة لنا
           </Typography>
           <Link to={"/contact"}>
             <Button
               color="white"
-              className="rounded-full hover:bg-gray-200 px-8 py-3 text-gray-800 font-semibold"
+              className="rounded-full hover:bg-gray-200 px-6 py-1 text-gray-800 font-semibold text-lg"
             >
-              GET STARTED
+              ابدأ
             </Button>
           </Link>
         </div>
