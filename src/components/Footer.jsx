@@ -12,33 +12,35 @@ const Footer = () => {
             alt="Nissr Dijlah Logo"
             className="w-10 h-10 object-cover"
           />
-          <div>
-            <h3 className="text-xl font-bold text-white">Nissr Dijlah</h3>
-            <p className="text-sm text-gray-400">
-              &copy; 2024 Nissr Dijlah. All Rights Reserved.
+          <div >
+            <h3 className="text-xl font-bold text-white mr-2">طريق بيروت للتجارة - محدودة المسؤولية</h3>
+            <p className="text-sm text-gray-400 mr-2">
+              &copy; كل الحقوق محفوظة لطريق بيروت للتجارة 2024.
             </p>
           </div>
         </div>
 
         {/* Middle Section - Navigation Links */}
-        <div className="flex space-x-6">
+        <div className="flex gap-x-6 ">
           <Link
             to="/"
-            className="text-sm hover:text-white transition-colors duration-200"
+            className="text-lg hover:text-white transition-colors duration-200"
           >
-            Home
+            الرئيسية
           </Link>
+
+          <Link
+            to="/gallery"
+            className="text-lg hover:text-white transition-colors duration-200"
+          >
+            المنتجات
+          </Link>
+
           <Link
             to="/about"
-            className="text-sm hover:text-white transition-colors duration-200"
+            className="text-lg hover:text-white transition-colors duration-200"
           >
-            About
-          </Link>
-          <Link
-            to="/contact"
-            className="text-sm hover:text-white transition-colors duration-200"
-          >
-            Contact
+            حول
           </Link>
         </div>
 
