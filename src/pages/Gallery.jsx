@@ -57,10 +57,11 @@ const Gallery = () => {
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3, 1000:4 }}
       >
+
         <Masonry gutter="30px" columnsCount={4}>
 
           {galleryImages.map((image, index) => (
-            <ImageCard key={index} image={image} index={index} />
+            <ImageCard key={index} image={image} index={index} /> 
           ))}
 
         </Masonry>

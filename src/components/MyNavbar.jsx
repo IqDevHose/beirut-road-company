@@ -41,7 +41,11 @@ export function MyNavbar() {
         <div className="flex items-center justify-between h-20"> {/* Increased height */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <h1 className="text-3xl font-bold text-gray-900">طريق بيروت</h1> {/* Larger font */}
+              <img
+                src="/logo.png"
+                alt="beirut Logo"
+                className="w-64 object-cover"
+              />
             </Link>
           </div>
           <div className="hidden md:block font-semibold text-lg">
