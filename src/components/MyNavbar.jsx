@@ -32,7 +32,7 @@ export function MyNavbar() {
     { name: "Home", path: "/" },
     { name: "Gallery", path: "/gallery" },
     { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+
   ];
 
   return (
