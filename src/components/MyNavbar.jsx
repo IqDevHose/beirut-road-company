@@ -29,7 +29,7 @@ export function MyNavbar() {
   }, []);
 
   const navItems = [
-    { name: "الرئيسيه ", path: "/" },
+    { name: "الرئيسية ", path: "/" },
     { name: "المنتجات", path: "/gallery" },
     { name: "حول", path: "/about" },
 
@@ -37,13 +37,18 @@ export function MyNavbar() {
 
   return (
     <nav className="sticky top-0 z-10 bg-white/80 backdrop-blur-md shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2"> {/* Adjusted padding */}
+      {/* Adjusted padding */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2"> 
         <div className="flex items-center justify-between h-20"> {/* Increased height */}
+         
+         
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <h1 className="text-3xl font-bold text-gray-900">Nissr Dijlah</h1> {/* Larger font */}
             </Link>
           </div>
+
+
           <div className="hidden md:block">
             {/* Increased space between items */}
             <div className="ml-10 flex items-baseline gap-6 ">
@@ -56,6 +61,8 @@ export function MyNavbar() {
             </div>
 
           </div>
+
+          
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
