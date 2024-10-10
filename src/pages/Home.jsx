@@ -56,9 +56,9 @@ const Home = () => {
 
           {/* Right side: Image section */}
           <div className="w-full md:w-1/2 flex justify-center px-4">
-            <Card className="w-full max-w-lg overflow-hidden rounded-[30px] shadow-xl">
+            <Card className="w-full max-w-lg overflow-hidden rounded-[30px]">
               <img
-                src="/assets/homePageImage.jpg"
+                src="/assets/product1.png"
                 alt="Fashion Model"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />

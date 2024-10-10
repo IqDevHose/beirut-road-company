@@ -51,13 +51,12 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto py-16">
-      <h2 className="text-3xl font-bold text-center mb-8">Gallery</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">المنتجات</h2>
 
       {/* Responsive Grid for Gallery */}
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3, 1000:4 }}
       >
-
         <Masonry gutter="30px" columnsCount={4}>
 
           {galleryImages.map((image, index) => (
