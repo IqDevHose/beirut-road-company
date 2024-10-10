@@ -26,7 +26,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-white font-tajawal" >
       {/* Main Section */}
       <section className="container mx-auto py-20">
         <div className="flex flex-col md:flex-row items-center justify-between">
@@ -34,7 +34,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 mb-10 md:mb-0 px-4">
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
-              <Typography variant="h1" className="text-5xl font-bold mb-6">
+              <Typography variant="h1" className="text-4xl mb-6">
                 شركة طريق بيروت للتجارة
               </Typography>
               <Typography

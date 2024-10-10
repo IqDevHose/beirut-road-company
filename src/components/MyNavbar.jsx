@@ -44,9 +44,9 @@ export function MyNavbar() {
               <h1 className="text-3xl font-bold text-gray-900">طريق بيروت</h1> {/* Larger font */}
             </Link>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block font-semibold text-lg">
             {/* Increased space between items */}
-            <div className="ml-10 flex items-baseline gap-6 ">
+            <div className="ml-10 flex items-baseline gap-6">
 
               {navItems.map((item) => (
                 <NavLink key={item.name} to={item.path}>
@@ -54,7 +54,6 @@ export function MyNavbar() {
                 </NavLink>
               ))}
             </div>
-
           </div>
           <div className="md:hidden">
             <button
