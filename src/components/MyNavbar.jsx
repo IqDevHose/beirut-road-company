@@ -29,10 +29,10 @@ export function MyNavbar() {
   }, []);
 
   const navItems = [
-    { name: "الرئيسيه", path: "/" },
-    { name: "المنتجات ", path: "/gallery" },
-    { name: "حول", path: "/about" },
-    { name: "تواصل", path: "/contact" },
+    { name: "Home", path: "/" },
+    { name: "Gallery", path: "/gallery" },
+    { name: "About", path: "/about" },
+
   ];
 
   return (
@@ -45,9 +45,9 @@ export function MyNavbar() {
             </Link>
           </div>
           <div className="hidden md:block">
-               {/* Increased space between items */}
-            <div className="ml-10 flex items-baseline gap-6 "> 
-           
+            {/* Increased space between items */}
+            <div className="ml-10 flex items-baseline gap-6 ">
+
               {navItems.map((item) => (
                 <NavLink key={item.name} to={item.path}>
                   {item.name}
@@ -108,7 +108,7 @@ export function MyNavbar() {
               <Link
                 key={item.name}
                 to={item.path}
-                className="block px-3 py-3 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" 
+                className="block px-3 py-3 rounded-md text-lg font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

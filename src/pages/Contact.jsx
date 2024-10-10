@@ -34,8 +34,8 @@ const Contact = () => {
             >
                 <div className="absolute inset-0 bg-black opacity-40"></div> {/* Optional dark overlay */}
                 <div className="relative z-10 text-center px-4">
-                    <h1 className="text-3xl md:text-5xl font-bold">Contact</h1>
-                    <p className="mt-2 text-base md:text-lg">Get In Touch With Us – We're Here To Help</p>
+                    <h1 className="text-3xl md:text-5xl font-bold">تواصل معنا</h1>
+                    <p className="mt-2 text-base md:text-lg">ابقى  على تواصل معنا نحن هنا لمساعدتك</p>
                 </div>
             </div>
 
@@ -44,13 +44,13 @@ const Contact = () => {
                 <div className="flex flex-col md:flex-row justify-between">
                     {/* Left Side - Contact Info */}
                     <div className="flex-1 md:pr-12 mb-6 md:mb-0">
-                        <h2 className="text-3xl font-bold mb-6">CONTACT</h2>
+                        <h2 className="text-3xl font-bold mb-6">تواصل معنا</h2>
                         <div className="mb-6 p-6 bg-gray-100 rounded-lg">
-                            <h3 className="text-xl font-semibold">📞 PHONE</h3>
+                            <h3 className="text-xl font-semibold">📞 رقم الهاتف</h3>
                             <p className="text-gray-600">+964 000 0000 0000</p>
                         </div>
                         <div className="p-6 bg-gray-100 rounded-lg">
-                            <h3 className="text-xl font-semibold">✉️ EMAIL</h3>
+                            <h3 className="text-xl font-semibold">✉️ البريد الاكتروني</h3>
                             <p className="text-gray-600">info@nsr.iq</p>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ const Contact = () => {
                             <input 
                                 type="text" 
                                 name="name"
-                                placeholder="Name" 
-                                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
+                                placeholder="الاسم"  
+                                className="w-full p-3 border border-gray-300 text-right rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
@@ -70,8 +70,8 @@ const Contact = () => {
                             <input 
                                 type="email" 
                                 name="email"
-                                placeholder="Email" 
-                                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
+                                placeholder="البريد الالكتروني" 
+                                className="w-full p-3 border text-right border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
@@ -79,8 +79,8 @@ const Contact = () => {
                             <input 
                                 type="text" 
                                 name="phone"
-                                placeholder="Phone Number" 
-                                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
+                                placeholder=" رقم الهاتف" 
+                                className="w-full p-3 border  text-right border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" 
                                 value={formData.phone}
                                 onChange={handleChange}
                             />
@@ -97,7 +97,7 @@ const Contact = () => {
                                 type="submit" 
                                 className="w-full bg-black text-white py-3 rounded-lg hover:bg-gray-800 transition-colors"
                             >
-                                SEND
+                                ارسال
                             </button>
                         </form>
                     </div>
