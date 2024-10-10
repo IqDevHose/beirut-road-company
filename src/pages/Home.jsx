@@ -10,9 +10,8 @@ const Home = () => {
   const staticImages = [
     "/assets/IMG-20240929-WA0064.jpg",
     "/assets/IMG-20240929-WA0070.jpg",
-    "/assets/IMG-20240929-WA0098.jpg",
-    // "/assets/IMG-20240929-WA0041.jpg",
-    // Add more static image paths here if needed
+    "/assets/IMG-20240929-WA0054.jpg",
+    "/assets/IMG-20240929-WA0062.jpg"
   ];
 
   const openModal = (image) => {
@@ -58,7 +57,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 flex justify-center px-4">
             <Card className="w-full max-w-lg overflow-hidden rounded-[30px]">
               <img
-                src="/assets/product1.png"
+                src="/logo.png"
                 alt="Fashion Model"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
@@ -72,7 +71,7 @@ const Home = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-6">من نحن</h2>
-            <p className="text-gray-600 mb-8">
+            <p className="text-gray-700 mb-8">
               نحن شركة متخصصة في تجارة الملابس ومواد التجميل، مقرنا في بغداد. نقدم مجموعة واسعة من أحدث صيحات الموضة ومنتجات العناية الشخصية، ملتزمون بتوفير منتجات عالية الجودة بأسعار تنافسية تلبي احتياجات جميع عملائنا. نسعى دائمًا إلى تقديم تجربة تسوق مميزة وخدمة عملاء استثنائية لضمان رضاكم وثقتكم.
             </p>
             {/* <Button className="bg-lime-300 text-gray-800 rounded-full w-40 py-3 hover:bg-lime-400 transition-colors">
@@ -81,9 +80,9 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center items-center p-8">
             <img
-              src="Clipped_image_20240930_141337.png"
+              src="/assets/envelopes-6919301_1280.jpg"
               alt="Minimalist room design"
-              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105"
+              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105 rounded-full"
             />
           </div>
         </div>
