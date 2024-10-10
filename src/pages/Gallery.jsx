@@ -51,7 +51,7 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto py-16">
-      <h2 className="text-3xl font-bold text-center mb-8">Gallery</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">المنتجات</h2>
 
       {/* Responsive Grid for Gallery */}
       <ResponsiveMasonry
@@ -61,7 +61,7 @@ const Gallery = () => {
         <Masonry gutter="30px" columnsCount={4}>
 
           {galleryImages.map((image, index) => (
-            <ImageCard key={index} image={image} index={index} />
+            <ImageCard key={index} image={image} index={index} /> 
           ))}
 
         </Masonry>
