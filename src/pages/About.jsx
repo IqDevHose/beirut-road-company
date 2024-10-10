@@ -12,31 +12,31 @@ const About = () => {
             className="w-48 h-48 object-cover rounded-full mb-6"
           />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
-            About Us
+            من نحن
           </h1>
         </div>
         <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-          Our store was born out of a desire to inject creativity and innovation into the world of fashion. Since the beginning, we've committed to blending style and comfort for the modern lifestyle, offering sophisticated and timeless pieces that suit everyone.
+          نحن شركة متخصصة في تجارة الملابس ومواد التجميل، نحرص على تقديم تشكيلة متنوعة من أحدث صيحات الموضة ومنتجات التجميل التي تلبي احتياجات جميع العملاء. نؤمن بأهمية الجودة ونختار منتجاتنا بعناية لضمان رضا عملائنا. كما نحرص على توفير تجربة تسوق سهلة ومريحة، مع دعم متواصل من خلال خدمة عملاء متميزة. هدفنا هو أن نكون وجهتكم الأولى لكل ما يتعلق بالموضة والجمال، ونسعى دائمًا لتقديم الأفضل في كل مرة تتسوقون فيها معنا.
         </p>
       </section>
 
       {/* History Section */}
       <section className="container mx-auto px-6 py-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
-          History of the Brand
+          تاريخ العلامة التجارية
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto text-center">
-          Our journey began with the goal of revolutionizing the fashion industry, bringing high-quality, functional apparel to customers around the world. Over the years, we've grown into a brand known for our passion for both innovation and timeless style.
+          تأسست علامتنا التجارية من شغف بالموضة والجمال، بهدف تقديم منتجات عالية الجودة تجمع بين الأناقة والتميز. منذ البداية، التزمنا بتوفير مجموعة متنوعة من الملابس ومنتجات التجميل التي تلبي احتياجات وأذواق عملائنا. انطلقنا من بغداد كشركة صغيرة، ومن خلال التفاني والتركيز على رضا العملاء، نمونا لنصبح اسماً موثوقاً في هذا المجال. اليوم، نواصل التطور بتقديم أحدث الصيحات وأفضل المنتجات، مع الحفاظ على قيمنا الأساسية في التميز وخدمة العملاء.
         </p>
       </section>
 
       {/* Promise Section */}
       <section className="container mx-auto px-6 py-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
-          Our Promise
+          هدفنا
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto text-center">
-          We are committed to pushing the boundaries of design and quality, ensuring that every piece we offer reflects our dedication to excellence. Our promise to you is simple: to provide fashion that merges creativity, comfort, and sustainability.
+          وعدنا هو تقديم منتجات عالية الجودة من الملابس ومواد التجميل تعكس أحدث الصيحات وتلبي توقعات عملائنا. نحن ملتزمون بتقديم خدمة استثنائية، مما يضمن تجربة تسوق سلسة، ونسعى باستمرار لتحسين خدماتنا لتلبية احتياجات عملائنا المتغيرة. في صميم علامتنا التجارية، يكمن الالتزام بالجودة والموثوقية ورضا العملاء، مما يضمن أن كل عملية شراء تضيف قيمة ورضا لعملائنا.
         </p>
       </section>
 
