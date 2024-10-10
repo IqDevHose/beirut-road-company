@@ -29,9 +29,9 @@ export function MyNavbar() {
   }, []);
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "About", path: "/about" },
+    { name: "الرئيسيه ", path: "/" },
+    { name: "المنتجات", path: "/gallery" },
+    { name: "حول", path: "/about" },
 
   ];
 

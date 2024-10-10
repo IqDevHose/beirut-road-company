@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 px-6">
         {/* Left Section - Logo and Company Name */}
         <div className="flex items-center space-x-3">
-          <img
+          <img 
             src="/logo.webp"
             alt="Nissr Dijlah Logo"
             className="w-10 h-10 object-cover"
