@@ -178,14 +178,14 @@ const Home = () => {
           >
             لا تتردد في إرسال رسالة لنا
           </Typography>
-          <Link to={"/contact"}>
+          <a href="mailto:nfoddddd@beirut.iq">
             <Button
               color="white"
               className="rounded-full hover:bg-gray-200 px-6 py-1 text-gray-800 font-semibold text-lg"
             >
               ابدأ
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
 
