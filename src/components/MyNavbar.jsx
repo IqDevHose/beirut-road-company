@@ -29,10 +29,10 @@ export function MyNavbar() {
   }, []);
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "الرئيسيه", path: "/" },
+    { name: "المنتجات ", path: "/gallery" },
+    { name: "حول", path: "/about" },
+    { name: "تواصل", path: "/contact" },
   ];
 
   return (
@@ -45,13 +45,16 @@ export function MyNavbar() {
             </Link>
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-6"> {/* Increased space between items */}
+               {/* Increased space between items */}
+            <div className="ml-10 flex items-baseline gap-6 "> 
+           
               {navItems.map((item) => (
                 <NavLink key={item.name} to={item.path}>
                   {item.name}
                 </NavLink>
               ))}
             </div>
+
           </div>
           <div className="md:hidden">
             <button
