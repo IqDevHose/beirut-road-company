@@ -41,7 +41,7 @@ export function MyNavbar() {
         <div className="flex items-center justify-between h-20"> {/* Increased height */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <h1 className="text-3xl font-bold text-gray-900">Nissr Dijlah</h1> {/* Larger font */}
+              <h1 className="text-3xl font-bold text-gray-900">طريق بيروت</h1> {/* Larger font */}
             </Link>
           </div>
           <div className="hidden md:block">
