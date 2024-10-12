@@ -56,7 +56,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 flex justify-center px-4">
             <Card className="w-full max-w-lg overflow-hidden rounded-[30px]">
               <img
-                src="/logo.png"
+                src="/public/assets/IMG-20240929-WA0093.jpg"
                 alt="Fashion Model"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
