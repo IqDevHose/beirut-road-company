@@ -80,9 +80,9 @@ const Home = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center items-center p-8">
             <img
-              src="/assets/envelopes-6919301_1280.jpg"
+              src="/undraw_profile_re_4a55.svg"
               alt="Minimalist room design"
-              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105 rounded-full"
+              className="w-full max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
