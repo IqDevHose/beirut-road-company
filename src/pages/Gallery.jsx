@@ -31,7 +31,7 @@ const Gallery = () => {
   const ImageCard = React.memo(({ image, index }) => (
     <Card
       key={index}
-      className="rounded-lg shadow-lg cursor-pointer" // Add cursor-pointer for click indication
+      className="rounded-lg shadow-lg cursor-pointer px-4 md:px-0" // Add cursor-pointer for click indication
       onClick={() => openModal(image)} // Open modal on image click
     >
       <img
