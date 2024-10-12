@@ -33,15 +33,14 @@ const Home = () => {
           <div className="w-full md:w-1/2 mb-10 md:mb-0 px-4">
             <div className="max-w-lg">
               <div className="h-1 w-10 bg-black mb-4"></div>
-              <Typography variant="h1" className="text-4xl mb-6">
+              <h1 className="font-bold text-4xl mb-6">
                 شركة طريق بيروت للتجارة
-              </Typography>
-              <Typography
-                variant="paragraph"
+              </h1>
+              <p
                 className="text-lg text-gray-700 mb-6"
               >
                 شركة متخصصة في بيع الملابس ومنتجات التجميل عبر الإنترنت، تقدم أحدث الصيحات بأسعار تنافسية. يقع مقر الشركة في بغداد وتلتزم بتوفير منتجات عالية الجودة وخدمة عملاء مميزة.
-              </Typography>
+              </p>
               <Link to={"/about"}>
                 <Button
                   color="black"
@@ -91,12 +90,11 @@ const Home = () => {
       {/* Gallery Section */}
       <section className="py-10 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <Typography
-            variant="h2"
+          <h1
             className="text-3xl font-bold text-center mb-8" // Reduced heading size and margin
           >
             منتجاتنا
-          </Typography>
+          </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* Left Column: Two stacked images */}
             <div className="grid grid-rows-2 gap-4">
@@ -145,12 +143,11 @@ const Home = () => {
             {" "}
             {/* Reduced margin */}
             <Link to="/gallery">
-              <Button
-                color="black"
-                className="rounded-full hover:bg-gray-800 px-6 py-2 text-base font-semibold" // Reduced padding
+              <button
+                className="bg-black text-white rounded-full hover:bg-gray-800 px-6 py-2 text-lg font-semibold" // Reduced padding
               >
                 شاهد المزيد
-              </Button>
+              </button>
             </Link>
           </div>
         </div>
@@ -165,25 +162,22 @@ const Home = () => {
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 text-center w-full">
-          <Typography
-            variant="h2"
-            className="text-4xl font-bold text-white mb-4"
+          <h1
+            className="text-3xl font-bold text-white mb-4"
           >
             تواصل معنا
-          </Typography>
-          <Typography
-            variant="paragraph"
-            className="text-xl text-gray-300 mb-8"
+          </h1>
+          <p
+            className="text-lg text-gray-300 mb-8"
           >
             لا تتردد في إرسال رسالة لنا
-          </Typography>
+          </p>
           <a href="mailto:nfoddddd@beirut.iq">
-            <Button
-              color="white"
-              className="rounded-full hover:bg-gray-200 px-6 py-1 text-gray-800 font-semibold text-lg"
+            <button
+              className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg"
             >
               ابدأ
-            </Button>
+            </button>
           </a>
         </div>
       </section>
